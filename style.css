@@ -1,0 +1,140 @@
+*{
+    font-family: Arial;
+    margin: 0px;
+    border:border-box;
+}
+.navbar{
+    color: white;
+    background-color: #0f1111;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 45px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 35px;
+    width: 100%;
+}
+.border{
+    border: 0.5px solid transparent;
+}
+.border:hover{
+    border: 0.5px solid white;
+}
+.add-fir{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #ffffff;
+    font-size: 14px;
+}
+.address{
+    display: flex;
+    
+}
+
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: pink;
+    width: 670px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #e6e6e6;
+    width: 50px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 300%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 6%;
+    
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 114, 16);
+    border-top-right-radius:2px ;
+    border-bottom-left-radius: 2px;
+    color: #0f1111;
+}
+span{
+    font-size: 15px;
+}
+.sign-bottom{
+    font-size: 14px;
+    font-weight: 700;
+}
+.return-bottom{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 40px;
+}
+.cart{
+    font-size: 14px;
+    font-weight: 700;
+}
+.menu{
+    color: #ffffff;
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main{
+  background-image: url(main.jpg);
+  height: 300px;
+  width: 1223px;
+  background-size: cover;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: #e2e7e6;
+    margin-left: 15px;
+}
+.section{
+    
+    height: 300px;
+    width: 23%;
+    margin-top:20px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    
+}
+.box1-img{
+    background-size: cover;
+height: 200px;
+ margin-top: 5px;
+
+ background-repeat: no-repeat;
+}
+.box1-content{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.para{
+    margin-top: 40px;
+    margin-left: 20px;
+}
